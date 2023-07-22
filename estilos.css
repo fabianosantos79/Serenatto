@@ -26,7 +26,7 @@ input[type="checkbox"]:focus {
 }
 
 .banners-titulo{
-  --bs-bg-opacity: .2;
+  --bs-bg-opacity: .4;
 }
 
 .banner-1{
@@ -55,4 +55,20 @@ input[type="checkbox"]:focus {
 
 .botao-padrao{
   background-color: var(--marrom-claro);
+}
+
+.botao-padrao:hover{
+  background-color: var(--marrom-escuro);
+}
+
+.input-range::-webkit-slider-thumb{
+  background-color:var(--marrom-claro);
+}
+
+.rodape{
+  background-color:var(--marrom-claro);
+}
+
+.link{
+  color: #000000;
 }
